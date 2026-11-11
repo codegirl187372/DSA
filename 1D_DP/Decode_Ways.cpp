@@ -2,7 +2,7 @@
 using namespace std;
 
 int numDecodings(string s) {
-    int n = s.size();
+    int n = s.size(); 
 
     if (n == 0 || s[0] == '0')
         return 0;
