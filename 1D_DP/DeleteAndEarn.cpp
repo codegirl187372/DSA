@@ -5,7 +5,7 @@ int deleteAndEarn(vector<int>& nums) {
     int maxNum = *max_element(nums.begin(), nums.end());
 
     // Store total points for every number 
-    vector<long long> points(maxNum + 1, 0);
+    vector<long long> points(maxNum + 1, 0); 
 
     for (int num : nums) {
         points[num] += num;
